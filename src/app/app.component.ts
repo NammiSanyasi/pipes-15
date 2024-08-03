@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'pipes';
+  
+  price = 25;
+  name = "Nammi"
+  dt = new Date();
+  obj = {
+    name:"nammi"
+  }
+  num = 26;
+  title="Radhe Shyam"
 }
